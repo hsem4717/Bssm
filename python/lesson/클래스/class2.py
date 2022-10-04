@@ -10,7 +10,7 @@ tank_hp = 150
 tank_damage = 35
 
 print(f"\n {tank_name} 유닛 생성")
-print(f"\n 체력{tank_hp} 공격력{tank_damage}")
+print(f"\n 체력 : {tank_hp} 공격력 : {tank_damage}")
 
 def attack(name, location, damage):
     print(f"\n {name} : {location} 방향으로 공격. 공격력 : {damage}")
