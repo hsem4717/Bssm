@@ -4,7 +4,6 @@ class human:
         self.age = age
     def how_old(self):
         print(self.age, "살 입니다")
-        
     def how_tall(self):
         print(self.height, "cm 입니다")
         
